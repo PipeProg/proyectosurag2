@@ -23,15 +23,9 @@ export function capturarDatos(etiquetaNombre, etiquetaDocumento,etiquetaEspecial
         horario : horarioMedico,
         descripcion : descripcionMedico,
         foto: imagenMedico}
-        console.log(datosFormularioMedico)
+        //console.log(datosFormularioMedico)
+        validarFormulario(datosFormularioMedico)
 
-    // console.log(nombresMedico)
-    // console.log(documentoMedico)
-    // console.log(especialidadMedico)
-    // console.log(registroMedico)
-    // console.log(correoMedico)
-    // console.log(sedeMedico)
-    // console.log(horarioMedico)
-    // console.log(descripcionMedico)
-    // console.log(imagenMedico)
+        
+
 }
